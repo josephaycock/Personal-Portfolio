@@ -8,7 +8,7 @@ import Skills from "./sections/Skills/Skills"
 
 function App() {
   return (
-    <>
+    <div className="container">
       <Navbar />
 
       <main>
@@ -20,7 +20,7 @@ function App() {
       </main>
 
       <Footer />
-    </>    
+    </div>    
   )
 }
 

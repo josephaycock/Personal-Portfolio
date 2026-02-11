@@ -2,8 +2,23 @@ import "./Navbar.css"
 
 function Navbar() {
   return (
-    <nav className="nav">
-      Navbar
+    <nav className="navbar">
+      <div className="navbar-left">
+        <a href="/home">Joseph Aycock</a>
+      </div>
+      <div className="navbar-right">
+        <ul className="nav-links">
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }

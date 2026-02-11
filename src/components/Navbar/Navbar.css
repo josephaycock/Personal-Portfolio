@@ -1,3 +1,29 @@
-.nav{
-    color: blue;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.navbar .navbar-left {
+    font-weight: bolder;
+}
+
+.navbar .navbar-right {
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 12rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0F172A;
+}
+
+.navbar a:hover {
+    color: #0EA5E9;
 }
