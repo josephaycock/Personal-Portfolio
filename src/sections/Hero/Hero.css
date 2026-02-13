@@ -1,2 +1,29 @@
 .hero {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+    margin: 0;
+}
+
+.hero .hero-title {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero .hero-subtitle {
+    margin-bottom: 2rem;
+}
+
+.hero .hero-paragraph {
+    font-size: 1.25rem;
+    max-width: 52ch;
+}
+
+.hero .hero-button {
+    
 }

@@ -7,21 +7,23 @@
 
 .navbar .navbar-left {
     font-weight: bolder;
+    font-size: 32px;
 }
 
 .navbar .navbar-right {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .navbar .nav-links {
     display: flex;
     list-style-type: none;
-    gap: 12rem;
+    gap: 6rem;
 }
 
 .navbar a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #0F172A;
+    text-decoration: none;  
+    color: #E2E8F0;
 }
 
 .navbar a:hover {
