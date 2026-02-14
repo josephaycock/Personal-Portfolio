@@ -22,8 +22,20 @@
 .hero .hero-paragraph {
     font-size: 1.25rem;
     max-width: 52ch;
+    margin-bottom: 2rem;
 }
 
 .hero .hero-button {
-    
+    width: 6rem;
+    height: 3rem;
+    background-color: #0EA5E9;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.hero .hero-button:hover {
+    background-color: #E2E8F0;
 }
