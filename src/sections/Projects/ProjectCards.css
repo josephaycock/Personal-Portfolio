@@ -1,0 +1,9 @@
+.project-cards {
+    background-color: #E2E8F0;
+    color: black;
+    border-radius: 0;
+}
+
+.project-cards .project-link {
+    color: black;
+}

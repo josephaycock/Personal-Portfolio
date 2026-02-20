@@ -7,6 +7,24 @@ const projects = [
   description: "placeholder paragraph",
   github: "###",
   },
+
+  {
+  title: "Place holder",
+  description: "placeholder paragraph",
+  github: "###",
+  },
+
+  {
+  title: "Place holder",
+  description: "placeholder paragraph",
+  github: "###",
+  },
+
+  {
+  title: "Place holder",
+  description: "placeholder paragraph",
+  github: "###",
+  },
 ];
 
 function Projects() {

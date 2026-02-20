@@ -17,7 +17,7 @@ function ProjectCards({title, description, github}: ProjectCardProps) {
         </p>
 
         {github && (
-            <a href={github} target="_blank" rel="noopener norefrrer">
+            <a href={github} className="project-link" target="_blank" rel="noopener noreferrer">
                 Github
             </a>
         )}

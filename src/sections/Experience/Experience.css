@@ -1,3 +1,23 @@
 .experience {
-    color: chartreuse;
+    color: black;
 }
+
+.experience-contents {
+    background-color: #E2E8F0;
+    width: 200px;
+    right: 200px;
+}
+
+.timeline .timeline-dot {
+    border-radius: 100%;
+    background-color: #E2E8F0;
+    width: 1rem;
+    height: 1rem;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100px;
+} 

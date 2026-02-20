@@ -1,3 +1,9 @@
 .projects {
-    color: brown;
+    padding: 4rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
 }
